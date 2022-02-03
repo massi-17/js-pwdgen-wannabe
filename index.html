@@ -54,9 +54,9 @@
         alert('La password generata verrà sicuramente scoperta\ned utilizzata per fini loschi');
         alert('Per accettare premi \'OK\' e prosegui');
 
-        let userName = prompt('Qual è il tuo nome?');
-        let userSurname = prompt('Qual è il tuo cognome?');
-        let userColor = prompt('Qual è il tuo colore preferito?');
+        let userName = prompt('Qual è il tuo nome?', 'Nome');
+        let userSurname = prompt('Qual è il tuo cognome?', 'Cognome');
+        let userColor = prompt('Qual è il tuo colore preferito?', 'Colore');
         let numeroScelto = 21;
         
         const userPassword = userName + userSurname + userColor + numeroScelto;
